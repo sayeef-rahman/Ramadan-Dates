@@ -1,0 +1,26 @@
+.home-hero-section{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-hero-section img{
+    height: 400px;
+}
+.home-hero-section span{
+    color: darkorange;
+}
+.home-hero-section h1{
+    font-size: 50px;
+}
+.home-hero-section p{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+.customer-review{
+    font-size: 40px;
+    margin: 30px 0;
+    text-align: center;
+}

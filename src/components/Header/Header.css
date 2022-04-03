@@ -4,6 +4,8 @@
     align-items: center;
     background-color: coral;
 }
-.navigation{
-    background-color: aliceblue;
+.nav-link{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
 }
