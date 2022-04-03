@@ -1,8 +1,12 @@
 import React from 'react';
+import useReviews from '../../hooks/getReviews';
 import khejur from '../Home/khejur.jpg'
+import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
+    // console.log("at home:", reviews.length);
     return (
         <div>
             <div className='home-hero-section'>
@@ -19,6 +23,18 @@ const Home = () => {
                 </div>
             </div>
             <h1 className='customer-review'>Our Custmer Reviews</h1>
+            <div>
+                {
+                    reviews.map(review => {
+                        <Review
+                            key={review.id}
+                            review={review}
+                        >
+                        </Review>
+                    })
+                }
+                {/* <h1>Len: {reviews.length}</h1> */}
+            </div>
         </div>
     );
 };
