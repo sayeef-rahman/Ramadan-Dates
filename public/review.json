@@ -2,8 +2,43 @@
     {
         "id": "RD-001",
         "rating": 4.6,
-        "name": "MARIYAM DATES (KHEJUR)",
-        "details": "MARIYAM DATES (KHEJUR)",
-        "img": "https://ratinkhosh.com/wp-content/uploads/2022/01/Pitted-Dates-min-450x450.jpg"
-      }
+        "name": "Edward Harris",
+        "details": "Very good packaging .But I will update my review after taking it...I think it will be good dates.",
+        "img": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    {
+        "id": "RD-002",
+        "rating": 4,
+        "name": "Paul Hemmings",
+        "details": "thnxx diya choto korbo na,seller vi prosongsar nejjo dabidar etai sotto.khub dates disen ekdom fresh.",
+        "img": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "RD-003",
+        "rating": 4.7,
+        "name": "Owen Morrison",
+        "details": "packaging valo silo khajur quality o valo soby nite parenn.",
+        "img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "RD-004",
+        "rating": 4,
+        "name": "Jacob Lambert",
+        "details": "valo e siloo... abr order korte chai..but ebr jodi kharap product dei.",
+        "img": "https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "RD-005",
+        "rating": 5,
+        "name": "Alan Randall",
+        "details": "Products quality so good. also packageing nice. every  one depend",
+        "img": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    {
+        "id": "RD-006",
+        "rating": 3.5,
+        "name": "Simon North",
+        "details": "airokom korata ki thik cilo apni amare dui rokomer khejur dilen but moja acce khoyar moto.",
+        "img": "https://images.unsplash.com/photo-1584999734482-0361aecad844?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1hbnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+    }
 ]
