@@ -9,3 +9,6 @@ nav a{
     margin: 0 10px;
     text-decoration: none;
 }
+nav a:hover{
+    color: rgb(90, 90, 236);
+}
