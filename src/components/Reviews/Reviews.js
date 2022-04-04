@@ -8,7 +8,7 @@ const Reviews = () => {
     // console.log(reviews);
     return (
         <div>
-            <h2>See What people say about us.</h2>
+            <h2>See What people says about us.</h2>
             <div className='reviews-container'>
                 {
                     reviews.map(review =>

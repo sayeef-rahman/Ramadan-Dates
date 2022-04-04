@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/getReviews';
 import khejur from '../Home/khejur.jpg'
 import Review from '../Review/Review';
@@ -6,7 +7,8 @@ import './Home.css'
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
-    // console.log("at home:", reviews.length);
+    const newReviews = reviews.slice(0,3);
+
     return (
         <div>
             <div className='home-hero-section'>
@@ -23,18 +25,18 @@ const Home = () => {
                 </div>
             </div>
             <h1 className='customer-review'>Our Custmer Reviews</h1>
-            <div>
+            <div className='home-cr'>
                 {
-                    reviews.map(review => {
+                    newReviews.map(review =>
                         <Review
                             key={review.id}
                             review={review}
                         >
                         </Review>
-                    })
+                    )
                 }
-                {/* <h1>Len: {reviews.length}</h1> */}
             </div>
+            <button><Link to="/reviews"><span className='see-reviews-btn'>See All Reviews</span></Link></button>
         </div>
     );
 };
