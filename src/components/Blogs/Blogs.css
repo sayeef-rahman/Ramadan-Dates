@@ -1,0 +1,18 @@
+.qa-title{
+    font-size: 30px;
+    text-align: center;
+}
+.blogs-container{
+    display: flex;
+}
+.blog{
+    margin: 20px 40px;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(235, 232, 232);
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: dodgerblue;
+}

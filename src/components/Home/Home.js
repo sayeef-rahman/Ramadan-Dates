@@ -19,6 +19,7 @@ const Home = () => {
                     <p>
                         Dates are a fruit that come from the date palm tree, which is native to the Middle East, although they are also now grown in the Mediterranean, Asia, the USA and Mexico.Dried and fresh dates are available year round, but the fresh type are best between November and January.
                     </p>
+                    <button className='buy-now-btn'>Buy Now</button>
                 </div>
                 <div>
                     <img src={khejur} alt="" />
