@@ -1,5 +1,18 @@
 .review-container img{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+.review-container{
+    /* width: 80%; */
+    border: 2px solid rgb(198, 142, 255);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.review-container p {
+    margin-left: 20px;
 }
