@@ -1,7 +1,5 @@
-.review-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-.customer-image{
-    
+.review-container img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
