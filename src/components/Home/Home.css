@@ -1,36 +1,62 @@
-.home-hero-section{
+.home-hero-section {
     width: 80%;
     margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.home-hero-section img{
+
+.home-hero-section img {
     height: 400px;
 }
-.home-hero-section span{
+
+.home-hero-section span {
     color: darkorange;
 }
-.home-hero-section h1{
+
+.home-hero-section h1 {
     font-size: 50px;
 }
-.home-hero-section p{
+
+.home-hero-section p {
     font-size: 20px;
     text-align: justify;
     margin-right: 20px;
 }
-.customer-review{
+
+.customer-review {
     font-size: 40px;
     margin: 30px 0;
     text-align: center;
 }
-.home-cr{
+
+.home-cr {
     width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
-button{
-    
+
+.home {
+    margin-bottom: 30px;
+}
+
+button {
+    margin: 30px auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border: none;
+    background-color: rgb(9, 179, 247);
+    border-radius: 30px;
+}
+button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(238, 157, 7);
 }

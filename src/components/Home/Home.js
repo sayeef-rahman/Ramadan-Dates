@@ -7,10 +7,10 @@ import './Home.css'
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
-    const newReviews = reviews.slice(0,3);
+    const newReviews = reviews.slice(0, 3);
 
     return (
-        <div>
+        <div className='home'>
             <div className='home-hero-section'>
                 <div>
                     <h1>
@@ -36,7 +36,9 @@ const Home = () => {
                     )
                 }
             </div>
-            <button><Link to="/reviews"><span className='see-reviews-btn'>See All Reviews</span></Link></button>
+            <div>
+                <button><Link to="/reviews">See All Reviews</Link></button>
+            </div>
         </div>
     );
 };
