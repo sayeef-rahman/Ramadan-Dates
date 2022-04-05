@@ -8,7 +8,7 @@ const Blogs = () => {
             <div className='blogs-container'>
                 <div className='blog'>
                     <p className='blog-title'>Context API and How it Works?</p>
-                    <p className='blog-content'>Context provides a way to pass data through the component tree without having to pass props down manually at every level.In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme) that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>
+                    <p className='blog-content'>Sometimes we need to transfer same data in different component. If we use same data separately in different component then it becomes redundancy, which is very time consuming for website load time at the end the user experience is very bad to stay with. To solve this problem we use context API. In React it is a way to pass data in all components. Context API shares the data globally but we can use it locally and we don't need to fetch the JSON file every time in the components. We can use createContext(); to create context and import context from react Dom. Finally export the context API to access it from different components.</p>
                 </div>
                 <div className='blog'>
                     <p className='blog-title'>What is Semantics Tag?</p>
