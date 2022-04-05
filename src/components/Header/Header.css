@@ -1,14 +1,19 @@
-.header{
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: coral;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
-nav a{
+
+nav a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
     color: rgb(90, 90, 236);
 }

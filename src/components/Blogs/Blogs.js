@@ -12,7 +12,7 @@ const Blogs = () => {
                 </div>
                 <div className='blog'>
                     <p className='blog-title'>What is Semantics Tag?</p>
-                    <p className='blog-content'>In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)In JavaScript, consider a function that takes a string parameter, and returns an li element with that string as its textContent. Would you need to look at the code to understand what the function did if it was called build('Peach'), or createLiWithContent('Peach')?In JavaScript, consider a function that takes a string parameter, </p>
+                    <p className='blog-content'>In simple word Semantics is represents a piece or block of code. Semantic Hyper Text Markup Language or semantic style helps web pages to understand meaningdful element or tags not only the representation but also the justification of content type. For example if we want to shoe and imag in web then we use img tag with source attribute of the image. </p>
                 </div>
             </div>
         </div>
