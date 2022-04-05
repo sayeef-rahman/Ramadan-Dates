@@ -1,6 +1,15 @@
 # Ramdana Dates
 
-[Named Link](http://www.google.fr/ "Named link title")
+This project is about Dates(fruit) Customer Review. 
 
-Technology Used:
+[Live Site](http://www.google.fr/)
+
+
+
+Technology & Technology Used:
 * React
+* JavaScript
+* Visual Studio Code
+* JSON
+* HTML
+* CSS
