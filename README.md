@@ -2,7 +2,7 @@
 
 This project is about Dates(fruit) Customer Review. 
 
-[Live Site](http://www.google.fr/)
+[Live Site](https://ramdan-dates-customer-review.netlify.app/)
 
 
 
